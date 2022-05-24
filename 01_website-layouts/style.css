@@ -2,7 +2,7 @@
   display: grid;
   gap: 1vw;
   height: 100vh;
-  grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+  grid-template: repeat(8, 1fr) / repeat(4, 1fr);
 }
 
 .container>div {
@@ -14,20 +14,21 @@
 
 .container>div:nth-child(1) {
   grid-column: span 4
+    /* grid-row: span 4 */
 }
 
 .container>div:nth-child(2) {
   grid-row: span 4
 }
 
+.container>div:nth-child(6) {
+  grid-row: span 3
+}
+
 .container>div:nth-child(4) {
-  grid-column: span 2
+  grid-row: span 2
 }
 
 .container>div:nth-child(5) {
-  grid-column: span 2
-}
-
-.container>div:nth-child(10) {
-  grid-column: span 3
+  grid-row: span 3
 }
