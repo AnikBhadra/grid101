@@ -1,11 +1,11 @@
 body {
   display: grid;
-  grid-template: 15vh 20vh 1fr 15vh/ 20vw 1fr;
+  grid-template: 15vh 2fr 1fr 15vh/ 20vw 1fr;
   grid-template-areas:
     "header header"
-    "ads article"
     "nav article"
-    "nav footer";
+    "ads article"
+    "ads footer";
   gap: 1vw;
   height: 100vh;
 }
