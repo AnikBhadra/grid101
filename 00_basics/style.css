@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  grid-template: 15vh 1fr 15vh/ 20vw 1fr 15vw;
+  grid-template-areas:
+    "header header header"
+    "nav article ads"
+    "nav footer footer";
+  gap: 1vw;
+  height: 100vh;
+}
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+nav {
+  grid-area: nav;
+}
+
+article {
+  grid-area: article;
+}
+
+.ads {
+  grid-area: ads;
+}
+
+header,
+nav,
+article,
+.ads,
+footer {
+  background-color: lightcoral;
+  font-size: 2vw;
+  padding: 0.5em;
+}
