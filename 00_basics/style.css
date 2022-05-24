@@ -1,24 +1,19 @@
 .grid {
   display: grid;
-  border: 1px solid gray;
-  margin-bottom: 2px;
-  gap: 0.5vw;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  grid-auto-flow: dense;
 }
 
-.auto-fill {
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  color: brown;
-}
-
-.auto-fit {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  ;
-  color: green;
-}
 
 .grid>div {
-  background-color: lightskyblue;
-  text-align: center;
-  font-size: 5vw;
-  padding: 0.5em;
+  background-color: darkcyan;
+  font-size: 2vw;
+  color: tomato;
+  padding: .5em;
+}
+
+.wide {
+  width: 40vw;
+  grid-column-end: span 2;
 }
