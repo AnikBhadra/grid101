@@ -1,40 +1,33 @@
-body {
+.container {
   display: grid;
-  grid-template: 15vh 1fr 15vh/1fr 2fr 20vw;
-  grid-template-areas:
-    "header header ads"
-    "nav article article"
-    "nav footer footer";
   gap: 1vw;
   height: 100vh;
+  grid-template: repeat(5, 1fr) / repeat(4, 1fr);
 }
 
-header {
-  grid-area: header;
-}
-
-footer {
-  grid-area: footer;
-}
-
-nav {
-  grid-area: nav;
-}
-
-article {
-  grid-area: article;
-}
-
-.ads {
-  grid-area: ads;
-}
-
-header,
-nav,
-article,
-.ads,
-footer {
+.container>div {
+  color: white;
   background-color: lightcoral;
   font-size: 2vw;
   padding: 0.5em;
+}
+
+.container>div:nth-child(1) {
+  grid-column: span 4
+}
+
+.container>div:nth-child(2) {
+  grid-row: span 4
+}
+
+.container>div:nth-child(4) {
+  grid-column: span 2
+}
+
+.container>div:nth-child(5) {
+  grid-column: span 2
+}
+
+.container>div:nth-child(10) {
+  grid-column: span 3
 }
