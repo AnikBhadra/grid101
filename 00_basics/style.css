@@ -1,13 +1,24 @@
-.container {
+.grid {
   display: grid;
-  gap: 1vw;
-  height: 30vh;
-  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  border: 1px solid gray;
+  margin-bottom: 2px;
+  gap: 0.5vw;
 }
 
-.container>div {
-  color: white;
-  background-color: lightcoral;
-  font-size: 2vw;
+.auto-fill {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  color: brown;
+}
+
+.auto-fit {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  ;
+  color: green;
+}
+
+.grid>div {
+  background-color: lightskyblue;
+  text-align: center;
+  font-size: 5vw;
   padding: 0.5em;
 }
