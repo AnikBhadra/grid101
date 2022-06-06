@@ -1,10 +1,10 @@
-import Span5Columns from "../components/Span5Columns"
+import Span3Columns2Rows from "../components/Span3Columns2Rows"
 
 function App() {
 
   return (
     <div>
-      <Span5Columns />
+      <Span3Columns2Rows />
     </div>
   )
 }
