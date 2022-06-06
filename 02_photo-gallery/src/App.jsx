@@ -1,10 +1,10 @@
-import F_Span5Columns from "../components/F_Span5Columns"
+import F_Span3Columns2Rows from "../components/F_Span3Columns2Rows"
 
 function App() {
 
   return (
     <div>
-      <F_Span5Columns />
+      <F_Span3Columns2Rows />
     </div>
   )
 }
