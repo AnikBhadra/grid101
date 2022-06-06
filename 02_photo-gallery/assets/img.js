@@ -59,5 +59,17 @@ export default [
         alt: "Ant",
         photographer: "Kevin Wong",
     },
+    {
+        id: 10,
+        url: "https://images.unsplash.com/photo-1653899262783-8bb8bdc623c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        alt: "Ocean",
+        photographer: "Sergey Kvint",
+    },
+    {
+        id: 11,
+        url: "https://images.unsplash.com/photo-1653896170250-2bbaade50d23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
+        alt: "Frog",
+        photographer: "Vadym Chumak",
+    },
 
 ];
