@@ -1,10 +1,10 @@
-import AlignItemsStretch from '../components/AlignItemsStretch'
+import AlignItemStart from '../components/AlignItemStart'
 
 function App() {
 
   return (
     <div>
-      <AlignItemsStretch />
+      <AlignItemStart />
     </div>
   )
 }
