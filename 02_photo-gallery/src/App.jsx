@@ -1,10 +1,10 @@
-import Align_JustifyStart from "../components/Align_JustifyStart"
+import Align_JustifyEnd from "../components/Align_JustifyEnd"
 
 function App() {
 
   return (
     <div>
-      <Align_JustifyStart />
+      <Align_JustifyEnd />
     </div>
   )
 }
