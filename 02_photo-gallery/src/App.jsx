@@ -1,11 +1,10 @@
-import SameSizeImages from '../components/SameSizeImages'
-import './App.css'
+import AlignItemsStretch from '../components/AlignItemsStretch'
 
 function App() {
 
   return (
     <div>
-      <SameSizeImages />
+      <AlignItemsStretch />
     </div>
   )
 }
