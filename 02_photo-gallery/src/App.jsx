@@ -1,10 +1,10 @@
-import AlignItemStart from '../components/AlignItemStart'
+import AlignItemCenter from "../components/AlignItemCenter"
 
 function App() {
 
   return (
     <div>
-      <AlignItemStart />
+      <AlignItemCenter />
     </div>
   )
 }
