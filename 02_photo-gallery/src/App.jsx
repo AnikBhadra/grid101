@@ -1,10 +1,10 @@
-import AlignItemEnd from "../components/AlignItemEnd"
+import Span5Columns from "../components/Span5Columns"
 
 function App() {
 
   return (
     <div>
-      <AlignItemEnd />
+      <Span5Columns />
     </div>
   )
 }
