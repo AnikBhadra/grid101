@@ -1,10 +1,10 @@
-import Align_JustifyCenter from "../components/Align_JustifyCenter"
+import F_Span5Columns from "../components/F_Span5Columns"
 
 function App() {
 
   return (
     <div>
-      <Align_JustifyCenter />
+      <F_Span5Columns />
     </div>
   )
 }
