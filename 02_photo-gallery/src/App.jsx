@@ -1,11 +1,10 @@
-import Align_JustifyStretch from "../components/Align_JustifyStretch"
-import Span3Columns3Rows from "../components/Span3Columns3Rows"
+import Align_JustifyStart from "../components/Align_JustifyStart"
 
 function App() {
 
   return (
     <div>
-      <Align_JustifyStretch />
+      <Align_JustifyStart />
     </div>
   )
 }
