@@ -1,12 +1,11 @@
 import './App.css'
-import ResponsiveAlignmentStretch from './components/ResponsiveAlignmentStretch'
-import ResponsiveAlign_JustifyStart from './components/ResponsiveAlign_JustifyStart'
+import ResponsiveAlign_JustifyCenter from './components/ResponsiveAlign_JustifyCenter'
 
 function App() {
 
   return (
     <div >
-      <ResponsiveAlign_JustifyStart />
+      <ResponsiveAlign_JustifyCenter />
     </div>
   )
 }
