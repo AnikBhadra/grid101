@@ -1,11 +1,11 @@
 import './App.css'
-import ResponsiveAlign_JustifyEnd from './components/ResponsiveAlign_JustifyEnd'
+import ResponsiveSpan2Columns from './components/ResponsiveSpan2Columns'
 
 function App() {
 
   return (
     <div >
-      <ResponsiveAlign_JustifyEnd />
+      <ResponsiveSpan2Columns />
     </div>
   )
 }
