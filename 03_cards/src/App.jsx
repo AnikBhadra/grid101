@@ -1,11 +1,11 @@
 import './App.css'
-import ResponsiveSpan2Rows from './components/ResponsiveSpan2Rows'
+import ResponsiveSpan2columns2Rows from './components/ResponsiveSpan2columns2Rows'
 
 function App() {
 
   return (
     <div >
-      <ResponsiveSpan2Rows />
+      <ResponsiveSpan2columns2Rows />
     </div>
   )
 }
