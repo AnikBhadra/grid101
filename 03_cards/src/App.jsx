@@ -1,11 +1,11 @@
 import './App.css'
-import ResponsiveAlign_JustifyCenter from './components/ResponsiveAlign_JustifyCenter'
+import ResponsiveAlign_JustifyEnd from './components/ResponsiveAlign_JustifyEnd'
 
 function App() {
 
   return (
     <div >
-      <ResponsiveAlign_JustifyCenter />
+      <ResponsiveAlign_JustifyEnd />
     </div>
   )
 }
